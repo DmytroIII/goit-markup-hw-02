@@ -1,14 +1,20 @@
 
 :root {
-  --primary-text-color: #757575;
+  --button-and-h1-color: #FFFFFF;
+  --main-text-color: #757575;
+  --small-text-color: #212121;
+  --background-button-hover:#2196F3;
+  --background-header-footer-color:#2F303A;
+  --background-our-team-color: #F5F4FA;
 }
 
 
 body {
-    background-color: #FFFFFF;
-    color:#757575;
+    background-color: var(--main-white-color);
+    color:var(main-text-color);
     font-family: Roboto, sans-serif;
     font-style:normal;
+    font-weight: 400;
     letter-spacing: 0.03em;
 }
 
@@ -21,15 +27,15 @@ body {
 }
 
 .logo_web {
-    color: #2196F3;
+    color: var(--background-button-hover);
 }
 
 .logo_studio_black {
-    color: #212121;
+    color:var(--small-text-color);
 }
 
 .logo_studio_white {
-    color: #FFFFFF;
+    color: var(--button-and-h1-color);
 }
 
 
@@ -43,13 +49,13 @@ body {
 
 
 .section_title {
-    color:#212121;
+    color:var(--small-text-color);
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .main {
-    color: #FFFFFF;
+    color: var(--button-and-h1-color);
     text-transform: uppercase;
     font-size: 44px;
     line-height: 1.2;
@@ -83,31 +89,39 @@ body {
 }
 
 .site-contacts .map {
-    color: #FFFFFF;
+    color: var(--button-and-h1-color);
 }
 
 .button {
-    background-color: #2196F3;
+    background-color: var(--background-button-hover);
     border: 0;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     border-radius: 4px;
     line-height: 1.9;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--button-and-h1-color);
     width: 200px;
     height: 50px;
+    cursor: pointer;
 }
 
 .menu .button.active {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--background-button-hover);
+    color:var(--button-and-h1-color);
 }
 
 .menu .button {
-    background-color: #F5F4FA;
-    color:#212121;
+    background-color: var(--background-our-team-color);
+    color:var(--small-text-color);
     font-weight:500;
+}
+
+.menu .button:hover,
+.menu .button:active,
+.menu .button:focus {
+    background-color: var(--background-button-hover);
+    color: var(--button-and-h1-color);
 }
 
 
@@ -115,51 +129,48 @@ body {
 .site-nav .link:active,
 .site-nav .link:focus
  {
-    color: #2196F3;
+    color: var(--background-button-hover);
 }
 
 .site-nav a {
-    color: #212121;
+    color: var(--small-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
-    color: #2196F3;
+    color: var(--background-button-hover);
 }
 
 /* Banner */
 
 .banner {
-background-color: #2F303A;
+background-color: var(--background-header-footer-color);
 }
 
 /* Contacts */
 
 .site-contacts a{
-    color:#757575;
-    font-weight: 400;
-    font-style: normal;
+    color:var(--main-text-color);
     font-size: 14px;
     line-height: 1.2;
 }
 
 .site-contacts .link:hover,
 .site-contacts .map:hover {
-        color: #2196F3;
+        color: var(--background-button-hover);
 }
 
 /* Advantages */
 
 .advantages p {
     font-size: 14px;
-    font-weight: 400;
 }
 
 /* Our team */
 
 .our-team {
- background-color: #F5F4FA;
+ background-color: var(--background-our-team-color);
 }
 
 /* What we do */
@@ -171,7 +182,7 @@ text-transform: none;
 /* Footer */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-header-footer-color);
 }
 
 

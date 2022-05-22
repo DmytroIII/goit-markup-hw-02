@@ -1,28 +1,19 @@
 body {
     background-color: #FFFFFF;
     color:#757575;
+    font-family: Roboto;
+    font-style:normal;
 }
 
-/*Цвет основого текста color:#212121 */
-/*Цвет ссылок подсвеченых color:#2196F3 */
-/*Цвет белый color:#FFFFFF */
-/*Цвет опсания color: #757575; */
-/*Цвет контактов в футере: color: rgba(255, 255, 255, 0.6); */
-
-.list {
-    list-style:none;
-}
-
-.list a{
-    text-decoration: none;
-}
 
 .logo{
     text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
 }
 
 .logo_web {
-    color:#2196F3;
+    color: #2196F3;
 }
 
 .logo_studio_black {
@@ -33,20 +24,34 @@ body {
     color: #FFFFFF;
 }
 
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+
 .section_title {
     color:#212121;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .main {
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
 }
 
 .name {
     text-transform: none;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .second {
@@ -57,17 +62,43 @@ body {
     font-size: 14px;
 }
 
-
-
 .our_team p {
     font-size: 16px;
+    font-weight: 400;
 }
 
 .site-contacts .map {
     color: #FFFFFF;
 }
-  /* Header */
 
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+
+.button {
+    background-color: #2196F3;
+    border: 0;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+}
+
+.menu .button.active {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.menu .button {
+    background-color: #F5F4FA;
+    color:#212121;
+    font-weight:500;
+}
+
+  /* Header */
 
 .site-nav .link:hover, 
 .site-nav .link:active,
@@ -78,6 +109,7 @@ body {
 
 .site-nav a {
     color: #212121;
+    font-weight: 500;
 }
 
 /* Banner */
@@ -86,19 +118,13 @@ body {
 background-color: #2F303A;
 }
 
-.button {
-    background-color: #2196F3;
-    font-size: 16px;
-    border-radius: 4px;
-    color:#FFFFFF;
-    width: 200px;
-    height: 50px;
-}
-
 /* Contacts */
 
 .site-contacts a{
     color:#757575;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .site-contacts .link:hover,
@@ -110,20 +136,19 @@ background-color: #2F303A;
 
 .advantages p {
     font-size: 14px;
+    font-weight: 400;
 }
 
 /* Our team */
 
 .our-team {
- background-color: #F5F4FA;;
+ background-color: #F5F4FA;
 }
-
-
 
 /* What we do */
 
-.services {
-
+.project {
+text-transform: none;
 }
 
 /* Footer */
@@ -131,3 +156,5 @@ background-color: #2F303A;
 .footer {
     background-color: #2F303A;
 }
+
+

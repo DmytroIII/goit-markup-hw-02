@@ -1,15 +1,23 @@
+
+:root {
+  --primary-text-color: #757575;
+}
+
+
 body {
     background-color: #FFFFFF;
     color:#757575;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style:normal;
+    letter-spacing: 0.03em;
 }
 
 
 .logo{
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .logo_web {
@@ -44,43 +52,47 @@ body {
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 44px;
+    line-height: 1.2;
     font-style: normal;
+    text-align: center;
     font-weight: 900;
 }
 
 .name {
     text-transform: none;
     font-size: 16px;
+    line-height: 1.19;
     font-weight: 500;
 }
 
 .second {
     font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 .contacts {
     font-size: 14px;
+    line-height: 1.7;
 }
 
 .our_team p {
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.16;
 }
 
 .site-contacts .map {
     color: #FFFFFF;
 }
 
-.site-nav .link.current {
-    color: #2196F3;
-}
-
-
 .button {
     background-color: #2196F3;
     border: 0;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     border-radius: 4px;
+    line-height: 1.9;
     font-weight: 700;
     color: #FFFFFF;
     width: 200px;
@@ -98,7 +110,6 @@ body {
     font-weight:500;
 }
 
-  /* Header */
 
 .site-nav .link:hover, 
 .site-nav .link:active,
@@ -110,6 +121,11 @@ body {
 .site-nav a {
     color: #212121;
     font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
 }
 
 /* Banner */
@@ -125,6 +141,7 @@ background-color: #2F303A;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    line-height: 1.2;
 }
 
 .site-contacts .link:hover,
